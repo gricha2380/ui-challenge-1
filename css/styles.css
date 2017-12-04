@@ -1,0 +1,129 @@
+/* base */
+body {
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* layout */
+.box {
+    display: flex;
+}
+p {
+    padding: 1rem 1rem;
+    margin: auto;
+}
+.container {
+    padding: 0;
+}
+
+/* modules */
+
+#a {
+    height: 75px;
+    background-color: #efc817;
+    background: linear-gradient(to bottom, #f5ea13 0%,#efc817 100%);
+    background-image: url('../images/grenada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#a h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.8);
+    font-size: 2.5rem;
+}
+
+#b {
+    height: 150px;
+    background: #009688;   
+    color: white;
+}
+
+#c {
+    background: #E0F2F1;
+    color: black;
+    height: 125px;
+}
+#d {
+    height: 125px;
+    background: #B2DFDB;
+    color: black;
+}
+
+#e {
+    display: inline-block;
+    width: 50%;
+    background: #80CBC4;
+    color: white;
+    float: left;
+    height: 250px;
+    text-align: left;
+}
+#f {
+    display: inline-block;
+    width: 50%;
+    background: #4DB6AC;
+    color: white;
+    height: 250px;
+    text-align: left;
+}
+#g {
+    display: inline-block;
+    width: 50%;
+    background: #00796B;
+    color: white;
+    float: left;
+    height: 250px;
+    text-align: left;
+}
+#h {
+    display: inline-block;
+    width: 50%;
+    background: #00695C;
+    color: white;
+    height: 250px;
+    text-align: left;
+}
+#i {
+    height: 80px;
+    background: #004D40;
+    color: white;
+}
+
+@media (min-width: 800px){
+    .container {
+        width: 960px;
+        margin: auto;
+    }
+    #a {
+        height: 100px;
+    }
+    #b {
+        width: 20%;
+        float: left;
+        height: 600px;
+    }
+    #c {
+        width: 40%;
+        height: 200px;
+        float: left;
+    }
+    #d {
+        width: 40%;
+        height: 200px;
+    }
+    #e, #f, #g, #h {
+        width: 20%;
+        height: 250px;
+        float: left;
+        display: flex;
+    }
+    #i {
+        float: left;
+        width: 80%;
+        height: 150px;
+    }
+}
