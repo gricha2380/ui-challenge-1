@@ -93,6 +93,13 @@ p {
     color: white;
 }
 
+@media (min-width: 480px) and (max-width: 799px) {
+    .container {
+        width: 480px;
+        margin: auto;
+    }
+}
+
 @media (min-width: 800px){
     .container {
         width: 960px;
